@@ -4,8 +4,11 @@ Copyright (C) 2007-2015  Dominic Sacré  <dominic.sacre@gmx.de>
 
 http://das.nasophon.de/pyliblo/
 
+多年不更新了
+注意: 新版本的Cython，会编译错误
+pip3 install "Cython<3.0"
 
-Requirements:
+Requirements: 依赖
 =============
 
 * Python >= 2.6 (also works with 3.x) [http://www.python.org/]
@@ -18,6 +21,9 @@ Installation:
 
 ./setup.py build
 ./setup.py install
+
+也可以使用命令
+pip3 install .
 
 This will install both the python module and the send_osc/dump_osc scripts.
 
